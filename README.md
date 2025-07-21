@@ -18,7 +18,7 @@ This is an implementation of [select2](https://select2.org) designed to caputre 
 
 2. Create a "Single line" "Text entry" question
 3. Edit the JavaScript in for the "Text entry" question
-Paste the contents of file into the question JavaScript for the "Text entry" question. The occupation names and NOC codes are drawn from `occupations.js` Make sure to change **all** instances of `QID1` to the question ID for your occupation question in your survey.
+Paste the contents of [question_javascript](question_javascript) into the question JavaScript for the "Text entry" question. The occupation names and NOC codes are drawn from `occupations.js` Make sure to change **all** instances of `QID1` to the question ID for your occupation question in your survey.
 
 To implement this method in French paste the code from occua_fr into your qualtrics Javascript. The occupation names and NOC codes for the French version are drawn from `occuptions_fr.js`. 
 
