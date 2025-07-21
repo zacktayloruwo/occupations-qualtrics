@@ -53,7 +53,7 @@ Campos-Gottardo, Rafael and Simon Kiss. (2025). "Recoding Occupations From the C
 
 # Professions Canadiennes dans Qualtrics
 
-Ceci est une implémentation de [select2](https://select2.org) conçue pour recueillir les professions et les codes de la [Classification nationale des professions](https://noc.esdc.gc.ca) (CNP), à utiliser dans la recherche sur l’opinion publique au Canada. Une version de cette implémentation a été incluse dans la [Étude électorale canadienne de 2025](http://www.ces-eec.ca/2025-canadian-election-study/) (EEC), permettant une comparaison entre les résultats des sondages et ceux de l’EEC.
+Ceci est une implémentation de [select2](https://select2.org) conçue pour recueillir les professions et les codes de la [Classification nationale des professions]([https://noc.esdc.gc.ca](https://noc.esdc.gc.ca)) (CNP), à utiliser dans la recherche sur l’opinion publique au Canada. Une version de cette implémentation a été incluse dans la [Étude électorale canadienne de 2025](http://www.ces-eec.ca/2025-canadian-election-study/) (EEC), permettant une comparaison entre les résultats des sondages et ceux de l’EEC.
 
 Vous pouvez prévisualiser ce module en [anglais](https://wlu.yul1.qualtrics.com/jfe/preview/previewId/e3838849-4ee2-4cfd-ac56-39e3ac68396b/SV_74CArtrQmN7GGma?Q_CHL=preview&Q_SurveyVersionID=current) ou en [français](https://wlu.yul1.qualtrics.com/jfe/preview/previewId/0425bcf7-feba-4a98-ae55-0fac4a74ef90/SV_e2QMOhsHJbthrGC?Q_CHL=preview&Q_SurveyVersionID=current).
 
