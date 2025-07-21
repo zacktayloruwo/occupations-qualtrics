@@ -8,7 +8,7 @@ If you have any issues or concerns please pull an issue on this repository.
 
 # Implementaiton in Qualtrics 
 
-1. Edit custom header to include the following code to implement select2:
+1. **Edit custom header to include the following code to implement select2:**
 
 ```
 <!-- Select2 CSS -->
@@ -20,13 +20,13 @@ If you have any issues or concerns please pull an issue on this repository.
 
 ```
 
-2. Create a "Single line" "Text entry" question
-3. Edit the JavaScript in for the "Text entry" question
+2. **Create a "Single line" "Text entry" question**
+3. **Edit the JavaScript in for the "Text entry" question**
 Paste the contents of [question_javascript](question_javascript) into the question JavaScript for the "Text entry" question. The occupation names and NOC codes are drawn from `occupations.js` Make sure to change **all** instances of `QID1` to the question ID for your occupation question in your survey.
 
 To implement this method in French paste the code from [question_javascript_fr](question_javascript_fr) into your qualtrics Javascript. The occupation names and NOC codes for the French version are drawn from `occuptions_fr.js`. 
 
-5. (Optional) Add a confirmation question following the occupation question
+5. **_(Optional)_ Add a confirmation question following the occupation question**
 
 We include a confirmation question following the occupation question to ensure that we have acurately captured an individual's occupation and industry. The confirmation question allows respondents to see the occupation category that they were placed in to ensure that it accurately reflects their occupation. It also enables them to enter another occupation if their occupation was not listed. 
 
@@ -37,7 +37,7 @@ If not go back to previous question.
 If your occupation was not listed please enter it below:
 ```
 
-6. Download Data
+6. **Download Data**
 
 Data from the occupation question will not appear in the default question responses in Qualtrics and will only appear in the embedded data on Qualtrics or when the data is downloaded. 
 
@@ -59,7 +59,7 @@ Si vous rencontrez des problèmes ou avez des questions, veuillez soumettre une 
 
 # Implémentation dans Qualtrics
 
-1. Modifiez l’en-tête personnalisé pour inclure le code suivant afin d’activer select2 :
+1. **Modifiez l’en-tête personnalisé pour inclure le code suivant afin d’activer select2 :**
 
 ```html
 <!-- Select2 CSS -->
@@ -70,13 +70,13 @@ Si vous rencontrez des problèmes ou avez des questions, veuillez soumettre une 
 <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
 ```
 
-2. Créez une question de type "Entrée de texte" à ligne unique  
-3. Modifiez le JavaScript de la question "Entrée de texte"  
+2. **Créez une question de type "Entrée de texte" à ligne unique**
+3. **Modifiez le JavaScript de la question "Entrée de texte"**
 Collez le contenu de [question_javascript_fr](question_javascript_fr) dans le champ JavaScript de la question. Les noms de professions et les codes CNP sont tirés de `occupations_fr.js`. Assurez-vous de remplacer **toutes** les occurrences de `QID1` par l’ID de la question sur les professions dans votre sondage.
 
 Pour utiliser la méthode en anglais, utilisez plutôt le code de [question_javascript](question_javascript), qui utilise `occupations.js`.
 
-5. (Optionnel) Ajouter une question de confirmation après la question sur la profession
+5. **_(Optionnel)_ Ajouter une question de confirmation après la question sur la profession**
 
 Nous ajoutons une question de confirmation pour s’assurer que la profession et le secteur d’activité de l’individu ont été correctement identifiés. Cette question permet aux répondants de vérifier la catégorie professionnelle qui leur a été assignée et de la corriger au besoin. Elle leur donne aussi la possibilité d’entrer une profession différente si la leur n’apparaissait pas dans la liste.
 
@@ -87,7 +87,7 @@ Sinon, retournez à la question précédente.
 Si votre profession n’était pas dans la liste, veuillez l’indiquer ci-dessous :
 ```
 
-6. Téléchargement des données
+6. **Téléchargement des données**
 
 Les données recueillies par la question sur la profession n’apparaîtront pas dans les réponses par défaut de Qualtrics, mais uniquement dans les *données intégrées* ou lors du téléchargement des données.
 
