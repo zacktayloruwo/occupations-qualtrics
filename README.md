@@ -8,7 +8,7 @@ You can preview this module in [English](https://wlu.yul1.qualtrics.com/jfe/prev
 
 If you have any issues or concerns please pull an *issue* on this repository.
 
-# Implementaiton in Qualtrics 
+# Implementation in Qualtrics 
 
 1. **Edit custom header to include the following code to implement `Select2`:**
 
