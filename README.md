@@ -20,12 +20,11 @@ This is an implementation of [select2](https://select2.org) designed to caputre 
 3. Edit the JavaScript in for the "Text entry" question
 Paste the contents of file into the question JavaScript for the "Text entry" question. The occupation names and NOC codes are drawn from `occupations.js` Make sure to change **all** instances of `QID1` to the question ID for your occupation question in your survey.
 
-To implement this method in French paste the code from file_fr into your qualtrics Javascript. The occupation names and NOC codes for the French version are drawn from `occuptions_fr.js`. 
+To implement this method in French paste the code from occua_fr into your qualtrics Javascript. The occupation names and NOC codes for the French version are drawn from `occuptions_fr.js`. 
 
 5. (Optional) Add a confirmation question following the occupation question
 
 We include a confirmation question following the occupation question to ensure that we have acurately captured an individual's occupation and industry. The confirmation question allows respondents to see the occupation category that they were placed in to ensure that it accurately reflects their occupation. It also enables them to enter another occupation if their occupation was not listed. 
-
 
 ```
 You entered ${e://Field/occupation-name} which corresponds to ${e://Field/occupation-category}. Is this correct? 
@@ -33,6 +32,10 @@ If not go back to previous question.
 
 If your occupation was not listed please enter it below:
 ```
+
+6. Download Data
+
+Data from the occupation question will not appear in the default question responses in Qualtrics and will only appear in the embedded data on Qualtrics or when the data is downloaded. 
 
 # Citiation 
 
