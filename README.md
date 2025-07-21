@@ -2,7 +2,7 @@
 
 # Canadian Occupations in Qualtrics
 
-This is an implementation of [select2](https://select2.org) designed to caputre occupations and [National Occupation Classification](https://noc.esdc.gc.ca) (NOC) Codes to be used in Canadian Public Opinion Research. A version of this implementation was included in the [2025 Canadian Election Study](http://www.ces-eec.ca/2025-canadian-election-study/) (CES) enabling a comparison of results from surveys to the CES.
+This is an implementation of [`Select2`](https://select2.org) designed to caputre occupations and [National Occupation Classification](https://noc.esdc.gc.ca) (NOC) Codes to be used in Canadian Public Opinion Research. A version of this implementation was included in the [2025 Canadian Election Study](http://www.ces-eec.ca/2025-canadian-election-study/) (CES) enabling a comparison of results from surveys to the CES.
 
 You can preview this module in [English](https://wlu.yul1.qualtrics.com/jfe/preview/previewId/e3838849-4ee2-4cfd-ac56-39e3ac68396b/SV_74CArtrQmN7GGma?Q_CHL=preview&Q_SurveyVersionID=current) or [French](https://wlu.yul1.qualtrics.com/jfe/preview/previewId/0425bcf7-feba-4a98-ae55-0fac4a74ef90/SV_e2QMOhsHJbthrGC?Q_CHL=preview&Q_SurveyVersionID=current).
 
@@ -10,7 +10,7 @@ If you have any issues or concerns please pull an *issue* on this repository.
 
 # Implementaiton in Qualtrics 
 
-1. **Edit custom header to include the following code to implement select2:**
+1. **Edit custom header to include the following code to implement `Select2`:**
 
 ```
 <!-- Select2 CSS -->
@@ -53,7 +53,7 @@ Campos-Gottardo, Rafael and Simon Kiss. (2025). "Recoding Occupations From the C
 
 # Professions Canadiennes dans Qualtrics
 
-Ceci est une implémentation de [select2](https://select2.org) conçue pour recueillir les professions et les codes de la [Classification nationale des professions](https://noc.esdc.gc.ca) (CNP), à utiliser dans la recherche sur l’opinion publique au Canada. Une version de cette implémentation a été incluse dans la [Étude électorale canadienne de 2025](http://www.ces-eec.ca/fr/etude-electorale-canadienne-2021-2/) (EEC), permettant une comparaison entre les résultats des sondages et ceux de l’EEC.
+Ceci est une implémentation de [`Select2`](https://select2.org) conçue pour recueillir les professions et les codes de la [Classification nationale des professions](https://noc.esdc.gc.ca) (CNP), à utiliser dans la recherche sur l’opinion publique au Canada. Une version de cette implémentation a été incluse dans la [Étude électorale canadienne de 2025](http://www.ces-eec.ca/fr/etude-electorale-canadienne-2021-2/) (EEC), permettant une comparaison entre les résultats des sondages et ceux de l’EEC.
 
 Vous pouvez prévisualiser ce module en [anglais](https://wlu.yul1.qualtrics.com/jfe/preview/previewId/e3838849-4ee2-4cfd-ac56-39e3ac68396b/SV_74CArtrQmN7GGma?Q_CHL=preview&Q_SurveyVersionID=current) ou en [français](https://wlu.yul1.qualtrics.com/jfe/preview/previewId/0425bcf7-feba-4a98-ae55-0fac4a74ef90/SV_e2QMOhsHJbthrGC?Q_CHL=preview&Q_SurveyVersionID=current).
 
@@ -61,7 +61,7 @@ Si vous rencontrez des problèmes ou avez des questions, veuillez soumettre une 
 
 # Implémentation dans Qualtrics
 
-1. **Modifiez l’en-tête personnalisé pour inclure le code suivant afin d’activer select2 :**
+1. **Modifiez l’en-tête personnalisé pour inclure le code suivant afin d’activer `Select2` :**
 
 ```html
 <!-- Select2 CSS -->
