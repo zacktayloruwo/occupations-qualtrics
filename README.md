@@ -81,10 +81,11 @@ Pour utiliser la méthode en anglais, utilisez plutôt le code de [question_java
 Nous ajoutons une question de confirmation pour s’assurer que la profession et le secteur d’activité de l’individu ont été correctement identifiés. Cette question permet aux répondants de vérifier la catégorie professionnelle qui leur a été assignée et de la corriger au besoin. Elle leur donne aussi la possibilité d’entrer une profession différente si la leur n’apparaissait pas dans la liste.
 
 ```text
-Vous avez entré ${e://Field/occupation-name}, ce qui correspond à ${e://Field/occupation-category}. Est-ce exact?  
-Sinon, retournez à la question précédente.  
+Vous avez entré ${e://Field/occupation-name}, qui correspond à ${e://Field/occupation-category}. Est-ce correct ?
 
-Si votre profession n’était pas dans la liste, veuillez l’indiquer ci-dessous :
+ Si ce n'est pas le cas, revenez à la question précédente.
+
+ Si votre profession ne figurait pas dans la liste, veuillez l'entrer ci-dessous :
 ```
 
 6. **Téléchargement des données**
