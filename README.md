@@ -1,3 +1,5 @@
+*(La version française suit)*
+
 # Canadian Occupations in Qualtrics
 
 This is an implementation of [select2](https://select2.org) designed to caputre occupations and [National Occupation Classification](https://noc.esdc.gc.ca) (NOC) Codes to be used in Canadian Public Opinion Research. A version of this implementation was included in the [2025 Canadian Election Study](http://www.ces-eec.ca/2025-canadian-election-study/) (CES) enabling a comparison of results from surveys to the CES.
