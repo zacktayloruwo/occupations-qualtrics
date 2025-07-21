@@ -26,6 +26,14 @@ To implement this method in French paste the code from file_fr into your qualtri
 
 We include a confirmation question following the occupation question to ensure that we have acurately captured an individual's occupation and industry. The confirmation question allows respondents to see the occupation category that they were placed in to ensure that it accurately reflects their occupation. It also enables them to enter another occupation if their occupation was not listed. 
 
+
+``
+You entered ${e://Field/occupation-name} which corresponds to ${e://Field/occupation-category}. Is this correct? 
+If not go back to previous question. 
+
+If your occupation was not listed please enter it below:
+``
+
 # Citiation 
 
 If you publish results using this question please cite:
