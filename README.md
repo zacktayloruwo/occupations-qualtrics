@@ -47,7 +47,7 @@ Data from the occupation question will not appear in the default question respon
 
 If you publish results using this question please cite:
 
-Campos-Gottardo, Rafael and Simon Kiss. (2025). "Recoding Occupations From the Canadian Election Study." Under Review in the *Canadian Journal of Political Science*.
+Campos-Gottardo, R. & Kiss, S. (2025). *Occupations Qualtrics Module for Canadian Political Science Surveys*. GitHub repository: [https://github.com/RafaelGottardo/occupations-qualtrics](https://github.com/RafaelGottardo/occupations-qualtrics)
 
 ---
 
@@ -98,7 +98,7 @@ Les données recueillies par la question sur la profession n’apparaîtront pas
 
 Si vous publiez des résultats basés sur cette question, veuillez citer :
 
-Campos-Gottardo, Rafael et Simon Kiss. (2025). « Recodage des professions à partir de l’Étude électorale canadienne ». En évaluation dans la *Revue canadienne de science politique*.
+Campos-Gottardo, R. & Kiss, S. (2025). *Occupations Qualtrics Module for Canadian Political Science Surveys*. GitHub repository: [https://github.com/RafaelGottardo/occupations-qualtrics](https://github.com/RafaelGottardo/occupations-qualtrics)
 
 ## License
 
@@ -112,6 +112,3 @@ This repository is dual-licensed to support both academic credit and open-source
 ## Citation
 
 If you use this module in a published paper or presentation, please cite:
-
-> Rafael C.G. (2024). *Occupations Qualtrics Module for Political Science Surveys*. GitHub repository: [https://github.com/RafaelGottardo/occupations-qualtrics](https://github.com/RafaelGottardo/occupations-qualtrics)
-
