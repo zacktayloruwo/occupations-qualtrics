@@ -99,3 +99,19 @@ Les données recueillies par la question sur la profession n’apparaîtront pas
 Si vous publiez des résultats basés sur cette question, veuillez citer :
 
 Campos-Gottardo, Rafael et Simon Kiss. (2025). « Recodage des professions à partir de l’Étude électorale canadienne ». En évaluation dans la *Revue canadienne de science politique*.
+
+## License
+
+This repository is dual-licensed to support both academic credit and open-source reuse.
+
+- 📋 **Survey text, documentation, and Qualtrics content**: Licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).  
+  Please **cite our work** if you use this module in a paper or public research project.
+
+- 💻 **Code (JavaScript, R scripts, etc.)**: Licensed under the [MIT License](./LICENSE-MIT.txt), allowing for open-source reuse and modification.
+
+## Citation
+
+If you use this module in a published paper or presentation, please cite:
+
+> Rafael C.G. (2024). *Occupations Qualtrics Module for Political Science Surveys*. GitHub repository: [https://github.com/RafaelGottardo/occupations-qualtrics](https://github.com/RafaelGottardo/occupations-qualtrics)
+
