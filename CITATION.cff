@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Campos-Gottardo"
+  given-names: "Rafael"
+  orcid: "https://orcid.org/0000-0002-0632-1070"
+- family-names: "Kiss"
+  given-names: "Simon"
+  orcid: "https://orcid.org/0000-0003-1837-5428"
+title: "Occupations Qualtrics Module for Canadian Political Science Surveys"
+version: 1.0.0
+doi: 10.5281/zenodo.1234
+date-released: 2025-07-30
+url: "https://github.com/RafaelGottardo/occupations-qualtrics"
+
