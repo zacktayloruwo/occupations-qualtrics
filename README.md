@@ -108,7 +108,3 @@ This repository is dual-licensed to support both academic credit and open-source
   Please **cite our work** if you use this module in a paper or public research project.
 
 - 💻 **Code (JavaScript, R scripts, etc.)**: Licensed under the [MIT License](./LICENSE-MIT.txt), allowing for open-source reuse and modification.
-
-## Citation
-
-If you use this module in a published paper or presentation, please cite:
