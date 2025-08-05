@@ -22,8 +22,14 @@ If you have any issues or concerns please pull an *issue* on this repository.
 
 ```
 
-2. **Create a "Single line" "Text entry" question**
-3. **Edit the JavaScript in for the "Text entry" question**
+2. **Edit custom footer to include the following code to load the data**
+
+```
+<script src="https://rafaelgottardo.github.io/occupations-qualtrics/occupations.js"></script>
+```
+
+3. **Create a "Single line" "Text entry" question**
+4. **Edit the JavaScript in for the "Text entry" question**
 Paste the contents of [question_javascript](question_javascript) into the question JavaScript for the "Text entry" question. The occupation names and NOC codes are drawn from `occupations.js` Make sure to change **all** instances of `QID1` to the question ID for your occupation question in your survey.
 
 To implement this method in French paste the code from [question_javascript_fr](question_javascript_fr) into your qualtrics Javascript. The occupation names and NOC codes for the French version are drawn from `occuptions_fr.js`. 
@@ -72,8 +78,14 @@ Si vous rencontrez des problèmes ou avez des questions, veuillez soumettre une 
 <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
 ```
 
-2. **Créez une question de type "Entrée de texte" à ligne unique**
-3. **Modifiez le JavaScript de la question "Entrée de texte"**
+2. **Modifiez le pied de page personnalisé pour inclure le code suivant afin de charger les données.**
+
+```
+<script src="https://rafaelgottardo.github.io/occupations-qualtrics/occupations.js"></script>
+```
+
+3. **Créez une question de type "Entrée de texte" à ligne unique**
+4. **Modifiez le JavaScript de la question "Entrée de texte"**
 Collez le contenu de [question_javascript_fr](question_javascript_fr) dans le champ JavaScript de la question. Les noms de professions et les codes CNP sont tirés de `occupations_fr.js`. Assurez-vous de remplacer **toutes** les occurrences de `QID1` par l’ID de la question sur les professions dans votre sondage.
 
 Pour utiliser la méthode en anglais, utilisez plutôt le code de [question_javascript](question_javascript), qui utilise `occupations.js`.
