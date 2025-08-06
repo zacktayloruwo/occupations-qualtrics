@@ -6,7 +6,7 @@ This is an implementation of [`Select2`](https://select2.org) designed to caputr
 
 You can preview this module in [English](https://wlu.yul1.qualtrics.com/jfe/preview/previewId/e3838849-4ee2-4cfd-ac56-39e3ac68396b/SV_74CArtrQmN7GGma?Q_CHL=preview&Q_SurveyVersionID=current) or [French](https://wlu.yul1.qualtrics.com/jfe/preview/previewId/0425bcf7-feba-4a98-ae55-0fac4a74ef90/SV_e2QMOhsHJbthrGC?Q_CHL=preview&Q_SurveyVersionID=current).
 
-For a full working example in English please see [NOC_Select2.qsf](NOC_Select2.qsf).
+For a full working example in English please see [NOC-Select2.qsf](NOC-Select2.qsf).
 
 If you have any issues or concerns please pull an *issue* on this repository.
 
