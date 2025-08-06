@@ -12,7 +12,7 @@ If you have any issues or concerns please pull an *issue* on this repository.
 
 # Implementation in Qualtrics 
 
-1. **Edit custom header to include the following code to implement `Select2`:**
+1. **Edit the css in the custom header to include the following code to implement `Select2`:**
 
 ```
 <!-- Select2 CSS -->
@@ -24,7 +24,7 @@ If you have any issues or concerns please pull an *issue* on this repository.
 
 ```
 
-2. **Edit custom footer to include the following code to load the data**
+2. **Edit the css in the custom footer to include the following code to load the data**
 
 ```
 <script src="https://rafaelgottardo.github.io/occupations-qualtrics/occupations.js"></script>
