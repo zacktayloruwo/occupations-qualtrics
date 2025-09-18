@@ -14,7 +14,7 @@ for (let i = 0; i < occupation_name.length; i++) {
   // because it only accepts arrays
   let decodedName = decodeUnicode(occupation_name[i]);
   let decodedCategory = decodeUnicode(category_name[i]);
-  let occup_code = categeory_code[i];
+  let occup_code = category_code[i];
   occup_names.push({ id: i, title: decodedName });
   // For performance, create a lookup object that maps ids from occup_names to
   // occupation names and categories for final data storage and verification by
