@@ -33,7 +33,7 @@ The custom header is under `Survey > Look and feel > General > Header`. Copy/pas
   crossorigin="anonymous"
   referrerpolicy="no-referrer"
 ></script>
-<script src="https://rafaelgottardo.github.io/occupations-qualtrics/occupations.js"></script>
+<script src="https://zacktayloruwo.github.io/occupations-qualtrics/occupations_noc2021_en.js"></script>
 ```
 
 2. **Create a "Text / Graphic" question** and enter the following HTML code under "HTML View" after clicking on the question text:
