@@ -6,15 +6,15 @@ function decodeUnicode(str) {
 }
 
 // Prepare data
-// occupation_names and occupation_category loaded in header
+// occupation_name and category_name loaded in header
 let occup_names = [];
 let occup_lookup = {};
-for (let i = 0; i < occupation_names.length; i++) {
+for (let i = 0; i < occupation_name.length; i++) {
   // create an occup names array, which is only for use in the selectize menu
   // because it only accepts arrays
-  let decodedName = decodeUnicode(occupation_names[i]);
-  let decodedCategory = decodeUnicode(occupation_category[i]);
-  let occup_code = occupation_codes[i];
+  let decodedName = decodeUnicode(occupation_name[i]);
+  let decodedCategory = decodeUnicode(category_name[i]);
+  let occup_code = categeory_code[i];
   occup_names.push({ id: i, title: decodedName });
   // For performance, create a lookup object that maps ids from occup_names to
   // occupation names and categories for final data storage and verification by
@@ -47,9 +47,9 @@ Qualtrics.SurveyEngine.addOnPageSubmit(function () {
   if (selected) {
     // Set embedded data
     Qualtrics.SurveyEngine.setEmbeddedData("occupation_name", selected.name);
-    Qualtrics.SurveyEngine.setEmbeddedData("occupation_code", selected.code);
+    Qualtrics.SurveyEngine.setEmbeddedData("category_code", selected.code);
     Qualtrics.SurveyEngine.setEmbeddedData(
-      "occupation_category",
+      "category_name",
       selected.category,
     );
   }
