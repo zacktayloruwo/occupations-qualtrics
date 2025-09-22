@@ -26,6 +26,7 @@ for (let i = 0; i < occupation_name.length; i++) {
   };
 }
 
+// ensure question loads first
 Qualtrics.SurveyEngine.addOnload(function() {
   var $select = jQuery("#occupation").selectize({
     maxItems: 1,
