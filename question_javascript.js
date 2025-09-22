@@ -26,31 +26,39 @@ for (let i = 0; i < occupation_name.length; i++) {
   };
 }
 
-var $select = $("#select").selectize({
-  maxItems: 1,
-  valueField: "id",
-  labelField: "title",
-  searchField: "title",
-  options: occup_names,
-  create: false,
-});
+Qualtrics.SurveyEngine.addOnload(function() {
+  var $select = jQuery("#occupation").selectize({
+    maxItems: 1,
+    valueField: "id",
+    labelField: "title",
+    searchField: "title",
+    options: occup_names,
+    create: false,
+  });
 
-// clear button
-var control = $select[0].selectize;
-$("#button-clear").on("click", function () {
-  control.clear();
+  if ($select.length > 0) {
+    var control = $select[0].selectize;
+
+    // clear button
+    jQuery("#button-clear").on("click", function () {
+      control.clear();
+    });
+  } else {
+    console.warn("Select element not found: #occupation");
+  }
 });
 
 Qualtrics.SurveyEngine.addOnPageSubmit(function () {
-  let id = $("#select")[0].selectize.getValue();
-  let selected = occup_lookup[id];
-  if (selected) {
-    // Set embedded data
-    Qualtrics.SurveyEngine.setEmbeddedData("occupation_name", selected.name);
-    Qualtrics.SurveyEngine.setEmbeddedData("category_code", selected.code);
-    Qualtrics.SurveyEngine.setEmbeddedData(
-      "category_name",
-      selected.category,
-    );
+  var $select = jQuery("#occupation");
+  if ($select.length > 0 && $select[0].selectize) {
+    let id = $select[0].selectize.getValue();
+    let selected = occup_lookup[id];
+    if (selected) {
+      Qualtrics.SurveyEngine.setEmbeddedData("occupation_name", selected.name);
+      Qualtrics.SurveyEngine.setEmbeddedData("category_code", selected.code);
+      Qualtrics.SurveyEngine.setEmbeddedData("category_name", selected.category);
+    }
+  } else {
+    console.warn("Selectize not initialized on #occupation");
   }
 });
