@@ -39,14 +39,13 @@ The custom header is under `Survey > Look and feel > General > Header`. Copy/pas
 2. **Create a "Text / Graphic" question** and enter the following HTML code under "HTML View" after clicking on the question text:
 
 ```
-QUESTION TEXT
-
-<select
-  id="select"
-  multiple
-  placeholder="Begin typing your occupation..."
-></select>
+What is your occupation outside of being a politician? If you currently hold full-time elected office, are retired, or are not currently employed, please state your <b>previous</b> occupation.
+<div>
+<select placeholder="Begin typing your occupation..." multiple="" id="occupation"></select>
+</div>
+<div>
 <button id="button-clear">Clear</button>
+</div>
 ```
 
 You can then edit the question text the usual way without having to enter the HTML view.
