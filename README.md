@@ -4,7 +4,9 @@ _This project is based on [`occupation-qualtrics`](https://github.com/RafaelGott
 
 # Canadian Occupations in Qualtrics
 
-This is an implementation of [`selectize.js`](https://selectize.dev/) designed to capture occupations and [National Occupation Classification](https://noc.esdc.gc.ca) (NOC) Codes to be used in Canadian Public Opinion Research. A version of this implementation was included in the [2025 Canadian Election Study](http://www.ces-eec.ca/2025-canadian-election-study/) (CES).
+This is an implementation of [`selectize.js`](https://selectize.dev/) designed to capture occupations and [National Occupation Classification](https://noc.esdc.gc.ca) (NOC) Codes to be used in Canadian public opinion research. An earlier version of this implementation was included in the [2025 Canadian Election Study](http://www.ces-eec.ca/2025-canadian-election-study/) (CES).
+
+The code references a fresh download of the 2021 National Occupation Classification.
 
 You can preview this module [here](https://survey.ucalgary.ca/jfe/form/SV_4N7a2cOpESu2Cqi).
 
