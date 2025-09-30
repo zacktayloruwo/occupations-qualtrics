@@ -55,9 +55,9 @@ Qualtrics.SurveyEngine.addOnPageSubmit(function () {
     let id = $select[0].selectize.getValue();
     let selected = occup_lookup[id];
     if (selected) {
-      Qualtrics.SurveyEngine.setEmbeddedData("occupation_name", selected.name);
-      Qualtrics.SurveyEngine.setEmbeddedData("category_code", selected.code);
-      Qualtrics.SurveyEngine.setEmbeddedData("category_name", selected.category);
+      Qualtrics.SurveyEngine.setJSEmbeddedData("occupation_name", selected.name);
+      Qualtrics.SurveyEngine.setJSEmbeddedData("category_code", selected.code);
+      Qualtrics.SurveyEngine.setJSEmbeddedData("category_name", selected.category);
       console.log("Embedded data set:", selected);
     }
   } else {
