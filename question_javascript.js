@@ -58,6 +58,7 @@ Qualtrics.SurveyEngine.addOnPageSubmit(function () {
       Qualtrics.SurveyEngine.setEmbeddedData("occupation_name", selected.name);
       Qualtrics.SurveyEngine.setEmbeddedData("category_code", selected.code);
       Qualtrics.SurveyEngine.setEmbeddedData("category_name", selected.category);
+      console.log("Embedded data set:", selected);
     }
   } else {
     console.warn("Selectize not initialized on #occupation");
