@@ -1,4 +1,4 @@
-var occupation_name = [
+window.occupation_name = [
 "2D animation artist",
   "2D animator",
   "3D animation artist",
@@ -27941,7 +27941,7 @@ var occupation_name = [
   "Zoology professor - university",
   "Zootherapist"
 ];
-var category_name = [
+window.category_name = [
 "Graphic designers and illustrators", 
   "Graphic designers and illustrators", 
   "Graphic designers and illustrators", 
@@ -55884,7 +55884,7 @@ var category_name = [
   "University professors and lecturers", 
   "Therapists in counselling and related specialized therapies"
 ];
-var category_code = [
+window.category_code = [
 "52120", 
   "52120", 
   "52120", 
